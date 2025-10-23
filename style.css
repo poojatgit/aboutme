@@ -1,0 +1,67 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    color: #283F3B
+}
+
+nav ul li{
+    list-style: none;
+    justify-content: end;
+    padding: 1rem;
+    color: #556F44
+}
+nav ul li:hover{
+    color: #66101F;
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    width: 90%
+
+}
+
+img{
+    display: flex;
+    border-radius: 30%;
+    justify-content: space-around;
+}
+
+#me{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.headerh{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* class use . id use # */
+
+.experiences{
+    color: #5D576B;
+}
+
+#experiences{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+#hobbies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+hr{
+    width: 50%;
+    border-radius: 60%;
+}
